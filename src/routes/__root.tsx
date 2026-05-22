@@ -23,7 +23,7 @@ function Header() {
     <header className="sticky top-0 z-50 backdrop-blur-md bg-background/70 border-b border-border">
       <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between gap-6">
         <Link to="/" className="font-display text-lg font-bold tracking-tight">
-          High-Stakes<span className="text-primary">.</span>
+          Jason Li<span className="text-primary">.</span>
         </Link>
         <nav className="flex flex-wrap items-center gap-x-5 gap-y-1 text-sm">
           {NAV.map((n) => (
