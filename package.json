@@ -3,9 +3,11 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
+  "homepage": "https://lhq2100.github.io/",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",    
+    "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
