@@ -1,4 +1,4 @@
-import { P as reactExports, C as isPromise, E as isRedirect, B as isNotFound, x as invariant, f as createControlledPromise, Y as rootRouteId, F as isServer$1, t as functionalUpdate$1, a as arraysEqual, g as createLRUCache, d as compileDecodeCharMap, _ as trimPath, X as rewriteBasepath, e as composeRewrites, N as processRouteTree, M as processRouteMasks, W as resolvePath, c as cleanPath, a0 as trimPathRight, L as parseHref, o as executeRewriteInput, y as isDangerousProtocol, Q as redirect, s as findSingleMatch, j as deepEqual, D as DEFAULT_PROTOCOL_ALLOWLIST, b as buildRouteBranch, w as interpolatePath, K as nullReplaceEqualDeep, T as replaceEqualDeep$1, I as last, i as decodePath, q as findFlatMatch, r as findRouteMatch, v as hasKeys, p as executeRewriteOutput, l as encodePathLikeUrl, $ as trimPathLeft, G as joinPaths, a2 as useRouter, k as dummyMatchContext, J as matchContext, U as requireReactDom, n as exactPathTest, S as removeTrailingSlash, R as React, H as jsxRuntimeExports, A as isModuleNotFoundError, a1 as useHydrated, m as escapeHtml, z as isInlinableStylesheet, u as getAssetCrossOrigin, V as resolveManifestAssetLink, O as Outlet } from "./server-zvJi_Ex8.js";
+import { P as reactExports, C as isPromise, E as isRedirect, B as isNotFound, x as invariant, f as createControlledPromise, Y as rootRouteId, F as isServer$1, t as functionalUpdate$1, a as arraysEqual, g as createLRUCache, d as compileDecodeCharMap, _ as trimPath, X as rewriteBasepath, e as composeRewrites, N as processRouteTree, M as processRouteMasks, W as resolvePath, c as cleanPath, a0 as trimPathRight, L as parseHref, o as executeRewriteInput, y as isDangerousProtocol, Q as redirect, s as findSingleMatch, j as deepEqual, D as DEFAULT_PROTOCOL_ALLOWLIST, b as buildRouteBranch, w as interpolatePath, K as nullReplaceEqualDeep, T as replaceEqualDeep$1, I as last, i as decodePath, q as findFlatMatch, r as findRouteMatch, v as hasKeys, p as executeRewriteOutput, l as encodePathLikeUrl, $ as trimPathLeft, G as joinPaths, a2 as useRouter, k as dummyMatchContext, J as matchContext, U as requireReactDom, n as exactPathTest, S as removeTrailingSlash, R as React, H as jsxRuntimeExports, A as isModuleNotFoundError, a1 as useHydrated, m as escapeHtml, z as isInlinableStylesheet, u as getAssetCrossOrigin, V as resolveManifestAssetLink, O as Outlet } from "./server-CAbZ4wgZ.js";
 var reactUse = reactExports.use;
 function useForwardedRef(ref) {
   const innerRef = reactExports.useRef(null);
@@ -4666,7 +4666,7 @@ var QueryClientProvider = ({
   }, [client]);
   return /* @__PURE__ */ jsxRuntimeExports.jsx(QueryClientContext.Provider, { value: client, children });
 };
-const appCss = "/assets/styles-CaYt9G9U.css";
+const appCss = "/test/assets/styles-CaYt9G9U.css";
 const NAV = [
   { to: "/", label: "Home" },
   { to: "/issue", label: "Issue" },
@@ -4770,7 +4770,7 @@ function RootComponent() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(Footer, {})
   ] });
 }
-const $$splitComponentImporter$4 = () => import("./sources-DxTTb-Qv.js");
+const $$splitComponentImporter$4 = () => import("./sources-BM1EMHRT.js");
 const Route$4 = createFileRoute("/sources")({
   head: () => ({
     meta: [{
@@ -4788,7 +4788,7 @@ const Route$4 = createFileRoute("/sources")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-const $$splitComponentImporter$3 = () => import("./solution-CW_tKqgM.js");
+const $$splitComponentImporter$3 = () => import("./solution-6P10s_Kk.js");
 const Route$3 = createFileRoute("/solution")({
   head: () => ({
     meta: [{
@@ -4806,7 +4806,7 @@ const Route$3 = createFileRoute("/solution")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-const $$splitComponentImporter$2 = () => import("./perspectives-EScmAfNw.js");
+const $$splitComponentImporter$2 = () => import("./perspectives-raSn3iwy.js");
 const Route$2 = createFileRoute("/perspectives")({
   head: () => ({
     meta: [{
@@ -4824,7 +4824,7 @@ const Route$2 = createFileRoute("/perspectives")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./issue-ByqC5LOU.js");
+const $$splitComponentImporter$1 = () => import("./issue-CbCzMFPS.js");
 const Route$1 = createFileRoute("/issue")({
   head: () => ({
     meta: [{
@@ -4842,7 +4842,7 @@ const Route$1 = createFileRoute("/issue")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-const $$splitComponentImporter = () => import("./index-B3HXae7q.js");
+const $$splitComponentImporter = () => import("./index-BiBj1Jd3.js");
 const Route2 = createFileRoute("/")({
   head: () => ({
     meta: [{
